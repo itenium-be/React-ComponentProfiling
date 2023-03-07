@@ -1,6 +1,25 @@
 React Component Profiling
 =========================
 
+
+## Chrome React Profiler
+
+[Download now 😃](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+
+**Before you begin**:
+
+Check the Settings of the profiler. There aren't many options but they are interesting.
+
+
+## Starting the Profiling tour
+
+
+```sh
+git checkout profiling-0-start
+```
+
+
+
 6fd444a6  2023-03-03  performance: exercise for at home? (tag: v2023-03-04)
 76617f39  2023-03-03  performance: removed the profilers
 0ce64269  2023-03-03  performance: turning badges/pills/icons components into regular html tags
