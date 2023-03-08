@@ -30,6 +30,15 @@ openMonths = projectMonths
   .reduce((acc, cur) => ({...acc, [cur]: true}), {});
 ```
 
+## Original confac version
+
+```sh
+npx http-server confac-initial
+```
+
+Surf to: `localhost:8080/index.html`
+
+
 
 
 ## Starting the Profiling tour
