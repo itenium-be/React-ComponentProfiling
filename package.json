@@ -1,0 +1,17 @@
+{
+  "name": "confac-react-component-profiling",
+  "version": "1.0.0",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itenium-be/React-ComponentProfiling.git"
+  },
+  "author": "itenium",
+  "license": "MIT",
+  "dependencies": {
+    "reselect": "^4.1.7"
+  },
+  "devDependencies": {
+    "@types/reselect": "^2.2.0"
+  }
+}
