@@ -7,6 +7,45 @@ Node v16.10.0
 War Story on React performance optimalizations on [confac](https://github.com/itenium-be/confac)
 
 
+## Installation
+
+### Frontend
+
+```sh
+git clone --recurse-submodules --remote-submodules https://github.com/itenium-be/React-ComponentProfiling
+cd React-ComponentProfiling/confac
+git checkout profiling-0-start
+npm install
+npm start
+```
+
+If there is no backend running on `localhost:9000` follow
+the instructions below or change `src/config-front.js`
+to connect to the backend details posted on Slack.
+
+
+### Backend
+
+Best to run separately since we will be switching branches etc.
+
+```sh
+git clone https://github.com/itenium-be/confac
+cd confac/backend
+npm install
+npm start
+```
+
+The backend also needs a running mongo, your options:
+
+- Check `/deploy/deploy.sh` for a docker-compose (run without arguments to see help)
+- Configure your own mongo in `backend/src/config.ts`
+- Startup a mongo with docker, see `README.md`
+- Use `backend/src/faker` to generate random data `npm run faker`
+
+You can also connect to the same dataset I'm using for the demos,
+the credentials will be posted on Slack. (don't mess with the data
+set please!!)
+
 
 ## Chrome React Profiler
 
