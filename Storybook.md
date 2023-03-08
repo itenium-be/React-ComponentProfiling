@@ -17,3 +17,5 @@ React Profiling Tour
 ```sh
 git checkout profiling-0-start
 ```
+
+`/invoices` listing is slow.
