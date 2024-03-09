@@ -114,9 +114,11 @@ Whenever filters change, especially the `openMonths: string[]`,
 the entire ProjectMonth screen is re-rendered.
 
 The wonders of the `IFeature`. It makes it super quick to create a new screen but
-maintainability has suffered.
+maintainability and accidental complexity has suffered.
 
-Changed store structure from `openMonths: string[]` to `openMonths: {[month]: bool}`.
+The filtering of the ProjectMonths per month happened by the IFeature and the `openMonths` filter was
+passed to it along with freeText filters etc. This caused a re-render of all ProjectMonth lists whenever
+a projectMonth was collapsed/opened (because of the changed openMonths reference).
 
 
 ```sh
