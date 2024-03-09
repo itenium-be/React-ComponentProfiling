@@ -1,6 +1,24 @@
 Performance Talk - Live Coding
 ==============================
 
+# Not on the menu
+
+## Virtualization
+
+- [bvaughn/react-virtualized](https://github.com/bvaughn/react-virtualized): React components for efficiently rendering large lists and tabular data (⭐ 26k)
+- [bvaughn/react-window](https://github.com/bvaughn/react-window): React components for efficiently rendering large lists and tabular data (⭐ 15k)
+- [TanStack/virtual](https://github.com/TanStack/virtual): 🤖 Headless UI for Virtualizing Large Element Lists in JS/TS, React, Solid, Vue and Svelte (⭐ 5k)
+
+
+## Infinite Scroll
+
+- [react-infinite-scroll-component](https://github.com/ankeetmaini/react-infinite-scroll-component): An awesome Infinite Scroll component in react. (⭐ 3k)
+- [react-infinite-scroller](https://github.com/danbovey/react-infinite-scroller): ⏬ Infinite scroll component for React in ES6 (⭐ 3k)
+- [react-infinite-scroll-hook](https://github.com/onderonur/react-infinite-scroll-hook): React hook for creating infinite scroll components. (⭐ 500)
+
+
+
+
 # InvoicesList
 
 ## WorkedDays calculated holidays
