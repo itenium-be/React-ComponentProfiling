@@ -9,42 +9,30 @@ War Story on React performance optimalizations on [confac](https://github.com/it
 
 ## Installation
 
-### Frontend
-
 ```sh
 git clone --recurse-submodules --remote-submodules https://github.com/itenium-be/React-ComponentProfiling
-cd React-ComponentProfiling/confac
-git checkout profiling-0-start
+cd React-ComponentProfiling
+cd confac
+git checkout MITechCon
+
+cd backend
+npm install
+npm start
+
+cd frontend
 npm install
 npm start
 ```
 
-If there is no backend running on `localhost:9000` follow
-the instructions below or change `src/config-front.js`
-to connect to the backend details posted on Slack.
-
-
-### Backend
-
-Best to run separately since we will be switching branches etc.
-
-```sh
-git clone https://github.com/itenium-be/confac
-cd confac/backend
-npm install
-npm start
-```
+### MongoDB
 
 The backend also needs a running mongo, your options:
 
 - Check `/deploy/deploy.sh` for a docker-compose (run without arguments to see help)
 - Configure your own mongo in `backend/src/config.ts`
-- Startup a mongo with docker, see `README.md`
-- Use `backend/src/faker` to generate random data `npm run faker`
+- Startup a mongo with docker, see `confac/README.md`
 
-You can also connect to the same dataset I'm using for the demos,
-the credentials will be posted on Slack. (don't mess with the data
-set please!!)
+Use `backend/src/faker` to generate random data `npm run faker`
 
 
 ## Chrome React Profiler
@@ -57,32 +45,15 @@ Check the Settings of the profiler. There aren't many options but some are quite
 
 
 
-## Original confac version
-
-```sh
-npx http-server confac-initial
-```
-
-Surf to: `localhost:8080/index.html`
-
-
-
-
 ## Starting the Profiling tour
 
-See `Storybook.md`!
-
+- `snippets`: Examples of the different techniques used
+- `date-holidays`: The enormity of the 3rd party package
+- `TechTalks/itenium`: The workshop at itenium (3h) - DEPRECATED (use one of the following two instead)
+- `TechTalks/LightningTalk`: The workshop condensed to a 15min powerpoint
+- `TechTalks/LiveCoding`: Re-implement the different implementations (`cd confac` & `git checkout MITechCon`)
 
 
 ## Resources
 
-
-- [Profiler Chrome Extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
-- [reselect](https://github.com/reduxjs/reselect) part of [@reduxjs/toolkit](https://redux-toolkit.js.org/)
-- [React v18](https://reactjs.org/blog/2022/03/29/react-v18.html)
-- [React Hooks](https://reactjs.org/docs/hooks-overview.html)
-- [useMemo](https://beta.reactjs.org/reference/react/useMemo)
-- [memo](https://beta.reactjs.org/reference/react/memo)
-- [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
-- [Profiler](https://reactjs.org/docs/profiler.html)
-- [The Definitive Guide to Profiling React Applications](https://blog.openreplay.com/the-definitive-guide-to-profiling-react-applications/)
+See `RESOURCES.md`!
