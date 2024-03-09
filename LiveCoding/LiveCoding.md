@@ -17,6 +17,10 @@ Performance Talk - Live Coding
 - [react-infinite-scroll-hook](https://github.com/onderonur/react-infinite-scroll-hook): React hook for creating infinite scroll components. (⭐ 500)
 
 
+## Debounce
+
+- [react-use](https://github.com/streamich/react-use/blob/master/docs/useDebounce.md) (⭐ 40k)
+- [use-debounce](https://github.com/xnimorz/use-debounce) (⭐ 3k)
 
 
 # InvoicesList
