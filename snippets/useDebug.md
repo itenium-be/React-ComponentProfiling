@@ -1,6 +1,9 @@
 useDebug
 ========
 
+[Docs](https://react.dev/reference/react/useDebugValue)
+
+
 ```tsx
 import { useDebugValue } from 'react';
 
@@ -10,3 +13,5 @@ function useOnlineStatus() {
   // ...
 }
 ```
+
+See `useDebug.png` for how it would look like in Dev Tools "Components" tab.

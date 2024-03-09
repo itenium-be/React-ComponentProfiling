@@ -1,4 +1,4 @@
 useDeferredValue
 ================
 
-https://beta.reactjs.org/reference/react/useDeferredValue
+[Docs](https://react.dev/reference/react/useDeferredValue)
