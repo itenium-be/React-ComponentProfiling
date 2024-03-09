@@ -48,7 +48,7 @@ Check the Settings of the profiler. There aren't many options but some are quite
 ## Starting the Profiling tour
 
 - `snippets`: Examples of the different techniques used
-- `date-holidays`: The enormity of the 3rd party package
+- `date-holidays`: The enormity of the 3rd party package -- see `code\projects\confac\perf-talks`
 - `TechTalks/itenium`: The workshop at itenium (3h) - DEPRECATED (use one of the following two instead)
 - `TechTalks/LightningTalk`: The workshop condensed to a 15min powerpoint
 - `TechTalks/LiveCoding`: Re-implement the different implementations (`cd confac` & `git checkout MITechCon`)
